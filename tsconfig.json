@@ -1,6 +1,8 @@
 {
-  "compilerOptions": {
-    "typeRoots": ["./types", "./node_modules/@types"],
+"compilerOptions": { 
+    "typeRoots": ["./types", "./node_modules/@types"], 
+    "allowJs": true, 
+    "incremental": true,
     "target": "ES2020",
     "useDefineForClassFields": true,
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
