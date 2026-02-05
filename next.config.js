@@ -4,17 +4,10 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "**",
-      },
-      {
-        protocol: "http",
-        hostname: "**",
-      },
-    ],
-  },
-  experimental: {
-    serverActions: true,
-  },
+        hostname: "**"
+      }
+    ]
+  }
 };
 
 module.exports = nextConfig;
