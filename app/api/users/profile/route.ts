@@ -1,7 +1,7 @@
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
 import prisma from "@/lib/prisma";
-import bcrypt from "bcryptjs";
+import bcrypt from "bcrypt";
 import { NextRequest, NextResponse } from "next/server";
 
 // GET /api/users/profile - Obtener perfil
